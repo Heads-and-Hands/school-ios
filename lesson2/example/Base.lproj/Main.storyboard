@@ -80,7 +80,7 @@
                                     <constraint firstAttribute="trailing" secondItem="Y2o-RX-TGL" secondAttribute="trailing" id="YEq-8j-BHq"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MtY-n1-6fJ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MtY-n1-6fJ" customClass="HighlightedButton" customModule="example" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="468" width="414" height="52"/>
                                 <color key="backgroundColor" name="neonRed"/>
                                 <constraints>
@@ -90,6 +90,11 @@
                                 <state key="normal" title="Войти">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="highlightedColor">
+                                        <color key="value" name="neonRedHightlighted"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="loginWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NjK-t0-KzB"/>
                                 </connections>
@@ -138,6 +143,9 @@
         </namedColor>
         <namedColor name="neonRed">
             <color red="0.92941176470588238" green="0.10588235294117647" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="neonRedHightlighted">
+            <color red="0.92941176470588238" green="0.10588235294117647" blue="0.20392156862745098" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
