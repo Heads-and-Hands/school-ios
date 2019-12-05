@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		501572312398096F003E4957 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501572302398096F003E4957 /* ProfileViewController.swift */; };
 		509F415B238AE39D0090C444 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509F415A238AE39D0090C444 /* AppDelegate.swift */; };
 		509F415F238AE39D0090C444 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509F415E238AE39D0090C444 /* ViewController.swift */; };
 		509F4162238AE39D0090C444 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 509F4160238AE39D0090C444 /* Main.storyboard */; };
 		509F4164238AE39E0090C444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 509F4163238AE39E0090C444 /* Assets.xcassets */; };
 		509F4167238AE39E0090C444 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 509F4165238AE39E0090C444 /* LaunchScreen.storyboard */; };
 		509F416F238AE7DA0090C444 /* HighlightedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509F416E238AE7DA0090C444 /* HighlightedButton.swift */; };
+		50F7B676238EE59E0096F33E /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F7B675238EE59D0096F33E /* RegistrationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		501572302398096F003E4957 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		509F4157238AE39D0090C444 /* example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		509F415A238AE39D0090C444 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		509F415E238AE39D0090C444 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		509F4166238AE39E0090C444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		509F4168238AE39E0090C444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		509F416E238AE7DA0090C444 /* HighlightedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightedButton.swift; sourceTree = "<group>"; };
+		50F7B675238EE59D0096F33E /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				509F4165238AE39E0090C444 /* LaunchScreen.storyboard */,
 				509F4168238AE39E0090C444 /* Info.plist */,
 				509F416E238AE7DA0090C444 /* HighlightedButton.swift */,
+				50F7B675238EE59D0096F33E /* RegistrationViewController.swift */,
+				501572302398096F003E4957 /* ProfileViewController.swift */,
 			);
 			path = example;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				509F415F238AE39D0090C444 /* ViewController.swift in Sources */,
 				509F416F238AE7DA0090C444 /* HighlightedButton.swift in Sources */,
+				501572312398096F003E4957 /* ProfileViewController.swift in Sources */,
+				50F7B676238EE59E0096F33E /* RegistrationViewController.swift in Sources */,
 				509F415B238AE39D0090C444 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
