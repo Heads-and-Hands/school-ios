@@ -7,3 +7,4 @@
 3. [UIScrollView и клавиатура](lesson-3.md)
 4. [UITableView и навигация](lesson-4.md)
 5. [Навигация](lesson-5.md)
+6. [Продвинутая верстка](lesson-6.md)
